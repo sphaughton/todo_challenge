@@ -26,5 +26,10 @@ describe('todoController', function() {
       expect(scope.allTasks).toEqual([]);
     });
 
+    it('can add a new task', function(){
+      scope.add
+      expect(scope.allTasks[0]).toEqual(allTasks[0]);
+    });
+
   })
 })
