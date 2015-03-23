@@ -24,10 +24,10 @@ I have encountered a few issues with moving forward. Currently a task entry will
 
 ####Planned Future Development
 
--[ ] Continue testing and adding core features using Karma for unit testing and Protractor for end-to-end.
--[ ] Repeat this process until basic functionality is complete.
--[ ] Create boilerplate CSS with Bootstrap and edit to my preference.
--[ ] Deploy app using Heroku
+- [ ] Continue testing and adding core features using Karma for unit testing and Protractor for end-to-end.
+- [ ] Repeat this process until basic functionality is complete.
+- [ ] Create boilerplate CSS with Bootstrap and edit to my preference.
+- [ ] Deploy app using Heroku
 
 ####Technologies Used
 - Javascript
