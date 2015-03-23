@@ -13,14 +13,18 @@ describe('todoController', function() {
   describe('list of tasks', function() {
     var task = [
       {
-        "task": "finish this challenge",
+        "text": "finish this challenge",
         "done": false
       }
-    ]
+    ];
 
-    it('starts with an empty task entry field', function() {
-      expect(scope.enterTask).toBeUndefined()
-    })
+    it('initialises with an empty entry field', function() {
+      expect(scope.newTask).toBeUndefined();
+    });
+
+    it('initialises with an empty list of tasks', function(){
+      expect(scope.allTasks).toEqual([]);
+    });
 
   })
 })

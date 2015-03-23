@@ -5,9 +5,13 @@ todoListApp.controller('todoController', function($scope){
   $scope.allTasks = [];
 
   $scope.add = function(){
+  
     $scope.allTasks.push({
-      task: $scope.newTask.task,
+      text: $scope.newTask,
       done: false
-    })
+    });
+  
+  $scope.newTask = '';
+  console.log($scope.allTasks[0].task);
   }
 });
