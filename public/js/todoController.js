@@ -4,7 +4,7 @@ todoListApp.controller('todoController', function($scope){
 
   $scope.allTasks = [];
 
-  $scope.add = function(){
+  $scope.addTask = function(){
   
     $scope.allTasks.push({
       text: $scope.newTask,
@@ -12,6 +12,6 @@ todoListApp.controller('todoController', function($scope){
     });
   
     $scope.newTask = '';
-    console.log($scope.allTasks[0].task);
-  }
+    console.log($scope.allTasks.text);
+  };
 });

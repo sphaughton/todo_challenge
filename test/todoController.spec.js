@@ -1,7 +1,7 @@
 describe('todoController', function() {
   beforeEach(module('todoList'));
 
-  var scope, ctrl
+  var scope, ctrl;
 
   beforeEach(inject(function($rootScope, $controller){
     scope = $rootScope.$new();
@@ -23,13 +23,13 @@ describe('todoController', function() {
     });
 
     it('initialises with an empty list of tasks', function(){
-      expect(scope.allTasks).toEqual([]);
+      expect(scope.allTasks.length).toEqual(0);
     });
 
     it('can add a new task', function(){
-      scope.add
-      expect(scope.allTasks[0]).toEqual(scope.allTasks[0]);
+      scope.addTask();
+      expect(scope.allTasks.length).toEqual(1);
     });
 
-  })
-})
+  });
+});
