@@ -11,7 +11,7 @@ todoListApp.controller('todoController', function($scope){
       done: false
     });
   
-  $scope.newTask = '';
-  console.log($scope.allTasks[0].task);
+    $scope.newTask = '';
+    console.log($scope.allTasks[0].task);
   }
 });
